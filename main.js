@@ -1,5 +1,5 @@
 const tuDienURL = "https://vtudien.com/trung-viet/dictionary/nghia-cua-tu-";
-const proxyURL = "http://localhost:443/";
+const proxyURL = "https://empyrean-depth-410711.as.r.appspot.com/";
 const googleTranslateURL = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=zh-CN&dt=t&q=";
 
 const form = document.getElementsByTagName("form")[0];
