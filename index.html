@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <title>Dịch tất cả mọi thứ ra âm Hán Việt</title>
+    <meta charset="utf-16" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Dịch tất cả mọi thứ ra âm Hán Việt</h1>
+    </header>
+    <div class="container">
+      <main>
+        <form action="">
+          <div class="flex-box">
+            <div class="form-group">
+              <label for="tieng-trung">Ngôn ngữ bất kì</label>
+              <textarea id="tieng-trung" placeholder="Nhập vào đây" name="tieng-trung">うずまき ナルト</textarea>
+            </div>
+            <div class="form-group">
+              <label for="han-viet">Tiếng Hán Việt</label>
+              <textarea id="han-viet" readonly placeholder="Tiếng Hán Việt sẽ hiện ở đây"></textarea>
+            </div>
+          </div>
+          <div class="submit-container">
+            <input type="submit" value="Chuyển" />
+            <img src="./img/ZZ5H.gif" alt="loading" id="loading">
+          </div>
+        </form>
+      </main>
+    </div>
+    <footer>
+      <p>&copy; Copyright Khoa Tran 2023</p>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>

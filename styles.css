@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: linear-gradient(135deg, hsl(11, 77%, 80%), hsl(0, 77%, 35%), hsl(27, 71%, 56%));
+  height: 100vh;
+}
+
+body {
+  font-family: 'Poppin', sans-serif;
+  margin: 0;
+  padding: 0;
+  padding-top: 5%;
+}
+
+.container {
+  width: 70%;
+  min-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: white;
+}
+
+header {
+  text-align: center;
+  font-size: 25px;
+  margin: 40px 0;
+  color: hsl(0, 100%, 100%);
+  text-shadow: 1px 1px 5px #b91e1e;
+}
+
+.flex-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-group {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group:first-of-type {
+  padding-right: 15px;
+} 
+
+.form-group:last-of-type {
+  padding-left: 15px;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 0.5em;
+}
+
+textarea {
+  font-size: 16px;
+  height: 10em;
+  padding: 0.5em;
+  resize: none;
+}
+
+textarea#han-viet {
+  background: #eee;
+}
+
+input[type='submit'] {
+  padding: 0.5em;
+  border: none;
+  background: hsl(8, 73%, 39%);
+  color: hsl(0, 0%, 100%);
+  font-weight: bold;
+  transition: .2s;
+}
+
+input[type='submit']:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+input[type='submit']:active {
+  opacity: 0.8;
+}
+
+#loading {
+  height: 1.5em;
+  vertical-align: middle;
+  display: none;
+}
+
+.submit-container {
+  margin-top: 0.5em;
+}
+
+footer {
+  margin-top: 40px;
+}
+
+p {
+  text-align: center;
+  color: hsl(0, 100%, 90%);
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
